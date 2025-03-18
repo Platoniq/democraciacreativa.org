@@ -1,0 +1,13 @@
+<header class="bg-white h-[75px]">
+  <nav class="flex items-center pt-[12px] pb-[12px] pl-[24px] pr-[24px] justify-between">
+    <a href="/">
+      <img width="168px" height="51px" src="/assets/img/logo.png" title="Escuela de Creatividad y Democracia">
+    </a>
+
+    <div class="flex justify-around w-7/10 ml-auto">
+      {% for section in site.data.sections  %}
+        <a class="border-1 border-white pt-1 pb-1 pl-2 pr-2 hover:border-black rounded-full box-border" href="{{ section.link }}">{{ section.name }}</a>
+      {% endfor %}
+    </div>
+  </nav>
+</header>
