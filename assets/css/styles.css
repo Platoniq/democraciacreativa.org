@@ -4,13 +4,6 @@
 @import "tailwindcss";
 
 body {
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Instrument Serif';
-  }
-
-  font-family: 'Instrument Sans';
-
-
   .transparent-background {
     background-color: #ccc;
     background-image: 
