@@ -3,6 +3,10 @@
 
 @import "tailwindcss";
 
+.prose h2 {
+  @apply mt-10 mb-4 text-2xl font-semibold text-gray-800;
+}
+
 body {
   .transparent-background {
     background-color: #ccc;
