@@ -1,0 +1,8 @@
+<section id="info" class="grid grid-cols-2 gap-y-4 p-6 md:grid-cols-8 gap-x-3 bg-black text-white md:h-[150px] font-[DM_Mono]">
+  {% for info in site.data.info %}
+  <div class="md:m-auto">
+    <h3 class="uppercase text-sm">{{ info.name }}</h3>
+    <p class="text-xl text-balance font-medium  font-sans">{{ info.description }}</p>
+  </div>
+  {% endfor %}
+</section>
