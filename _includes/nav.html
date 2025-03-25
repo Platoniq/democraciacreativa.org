@@ -4,10 +4,18 @@
       <img width="168px" height="51px" src="/assets/img/logo.png" title="Escuela de Creatividad y Democracia">
     </a>
 
-    <div class="flex justify-around w-7/10 ml-auto">
+    <div class="flex justify-around w-7/10 ml-auto hidden md:inline-flex">
       {% for section in site.data.sections  %}
         <a class="border-1 border-white pt-1 pb-1 pl-2 pr-2 hover:border-black rounded-full box-border" href="{{ section.link }}">{{ section.name }}</a>
       {% endfor %}
+    </div>
+
+    <div class="md:hidden">
+      <button>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
     </div>
   </nav>
 </header>
