@@ -1,26 +1,26 @@
 - name: Quien somos
-  link: "#who"
+  link: "/#who"
 
 - name: Que ofrecemos
-  link: "#what"
+  link: "/#what"
 
 - name: Objetivos
-  link: "#objectives"
+  link: "/#objectives"
 
 - name: Itinerarios
-  link: "#itineraries"
+  link: "/#itineraries"
 
 - name: Metodologia
-  link: "#methodology"
+  link: "/#methodology"
 
 - name: Programa
-  link: "#program"
+  link: "/#program"
 
 - name: Critical Friends
-  link: "#friends"
+  link: "/#friends"
 
 - name: Precio
-  link: "#price"
+  link: "/#price"
 
 - name: Dónde
-  link: "#where"
+  link: "/#where"
