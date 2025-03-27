@@ -1,0 +1,24 @@
+- name: Fecha y horarios
+  description: Martes de 18h a 20h
+
+- name: Plazas
+  description: 60
+
+- name: Organiza
+  description: Fundación Platoniq
+
+- name: Idioma
+  description: Castellano
+
+- name: Precio
+  description: Desde 96€
+
+- name: Modalidad
+  description: 11 sesiones online y 5 presenciales
+
+- name: Especialización
+  description: 4 perfiles profesionales
+
+- name: Duración
+  description: Del 21 de Abril al 4 de Julio
+
