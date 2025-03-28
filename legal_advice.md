@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "Términos y condiciones"
 ---
 
 ## OBJETO Y ÁMBITO DE APLICACIÓN
