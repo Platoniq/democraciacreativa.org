@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "Política de Privacidad"
 ---
 ## RESPONSABLE Y TITULAR DE LOS DATOS
 
