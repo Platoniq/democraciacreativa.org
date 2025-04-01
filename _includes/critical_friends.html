@@ -1,0 +1,49 @@
+<section id="friends" class=" w-full grid grid-rows justify-center gap-10 mb-10">
+  <div class="grid grid-rows gap-4">
+    <div class="place-self-center">
+      <span class="bg-black text-white text-xl px-[12px] py-[8px] rounded-sm">
+        Critical Friends
+      </span>
+    </div>
+    <p class="m-2 md:w-1/2 place-self-center text-center text-balance text-base md:text-3xl">
+      Así es como llamamos a los profesionales y jóvenes mentores invitados. Con ellos aprenderás las bases de la democracia deliberativa desde la creatividad y el aprendizaje mutuo.
+    </p>
+  </div>
+
+  <div class="splide font-[Instrument_Sans]" id="image-slider">
+    <div class="splide__track">
+      <div class="splide__list">
+        {% for teacher in site.data.teachers %}
+        <div class="splide__slide">
+          <div class="grid grid-rows place-content-center gap-4">
+            <img class="rounded-3xl border w-[310px] h-[240px] object-cover" widht="310" height="240" src="{{ teacher.image }}" alt="{{ teacher.name }}">
+            <h3 class="text-3xl m-auto">{{ teacher.name }}</h3>
+            <p class="text-base text-center text-balance m-auto"> {{ teacher.description }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </divclass>
+    </div>
+  </div>
+
+</section>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  new Splide('#image-slider', {
+    type: 'slide',
+    focus: 'center',
+    width: "100vw",
+    perPage: 4.5,
+    autoplay: false,
+    arrows: false,
+    pagination: false,
+    breakpoints: {
+      768: { 
+        perPage: 1.1,
+      },
+    }
+  }).mount();
+});
+</script>
