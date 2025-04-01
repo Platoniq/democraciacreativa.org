@@ -1,3 +1,35 @@
+- name: "Chimwemwe Chirwa"
+  description: "Poeta <br> 1a generación de mentores"
+  image: "/assets/img/teachers/chimwemwe_chirwa.webp"
+
+- name: "Sam Fixon"
+  description: "Facilitadora de Teatro Legislativo <br> 1a generación de mentores"
+  image: "/assets/img/teachers/sam_fixon.webp"
+
+- name: "Linton Rainford"
+  description: "Diseñador digital <br> 1a generación de mentores"
+  image: "/assets/img/teachers/linton_rainford.webp"
+
+- name: "María Azucena Morán"
+  description: "Investigadora del Centro Helmholtz de Potsdam"
+  image: "/assets/img/teachers/maria_azucena_moran.webp"
+
+- name: "Marta Poblet"
+  description: "Directora de investigación en The Data Tank"
+  image: "/assets/img/teachers/marta_poblet.webp"
+
+- name: "Sonia Bussu"
+  description: "Profesora de la Universidad de Birmingham"
+  image: "/assets/img/teachers/sonia_bussu.webp"
+
+- name: "Katy Rubin"
+  description: "Experta en Teatro Legislativo"
+  image: "/assets/img/teachers/katy_rubin.webp"
+
+- name: "Eva Belmonte"
+  description: "Directora de la Fundación Civio"
+  image: "/assets/img/teachers/eva_belmonte.webp"
+
 - name: "Ernesto Ganuza"
   description: "Sociólogo en el IPP (CSIC)"
   image: "/assets/img/teachers/ernesto_ganuza.webp"
@@ -10,26 +42,10 @@
   description: "Subdirectora del Instituto of Design Research (HKB)"
   image: "/assets/img/teachers/paola_perri.webp"
 
-- name: "Gerard Lillo"
-  description: "Jefe de participación en el Ajuntament de Barcelona"
-  image: "/assets/img/teachers/gerard_lillo.webp"
-
-- name: "Sonia Bussu"
-  description: "Profesora de la Universidad de Birmingham"
-  image: "/assets/img/teachers/sonia_bussu.webp"
-
-- name: "Katy Rubin"
-  description: "Experta en Teatro Legislativo"
-  image: "/assets/img/teachers/katy_rubin.webp"
-
 - name: "Oliver Escobar"
   description: "Profesor de la Universidad de Edimburgo"
   image: "/assets/img/teachers/oliver_escobar.webp"
 
-- name: "Eva Belmonte"
-  description: "Directora de la Fundación Civio"
-  image: "/assets/img/teachers/eva_belmonte.webp"
-
-- name: "Judit Membrives"
-  description: "Investigadora en Tecnología Digital Y Derechos Humanos"
-  image: "/assets/img/teachers/judit_membrives.webp"
+- name: "Gerard Lillo"
+  description: "Jefe de participación en el Ajuntament de Barcelona"
+  image: "/assets/img/teachers/gerard_lillo.webp"
