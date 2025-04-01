@@ -1,16 +1,16 @@
-- name: Quien somos
+- name: Quiénes somos
   link: "/#who"
 
-- name: Que ofrecemos
+- name: Qué ofrecemos
   link: "/#what"
 
 - name: Objetivos
   link: "/#objectives"
 
 - name: Itinerarios
-  link: "/#itineraries"
+  link: "/#itinerary"
 
-- name: Metodologia
+- name: Metodología
   link: "/#methodology"
 
 - name: Programa
@@ -19,7 +19,7 @@
 - name: Critical Friends
   link: "/#friends"
 
-- name: Precio
+- name: Precios
   link: "/#price"
 
 - name: Dónde
