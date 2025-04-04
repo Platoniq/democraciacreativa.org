@@ -10,12 +10,36 @@
       {% endfor %}
     </div>
 
-    <div class="md:hidden">
-      <button>
+    <div id="mobile-menu-button" class="md:hidden" onclick="toggleMenu()">
+      <button id="mobile-menu-open">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
       </button>
+      <button id="mobile-menu-close" class="hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white w-full absolute top-[75px] left-0 shadow-lg h-screen">
+      <div class="flex flex-col items-center py-4">
+        {% for section in site.data.sections %}
+          <a class="border border-white w-3/4 text-center text-2xl my-2 hover:border-black rounded-full box-border" href="{{ section.link }}" onclick="toggleMenu()">{{ section.name }}</a>
+        {% endfor %}
+      </div>
     </div>
   </nav>
+  <script>
+    function toggleMenu() {
+      const $mobileMenu = document.getElementById("mobile-menu");
+      const $openButton = document.getElementById("mobile-menu-open");
+      const $closeButton = document.getElementById("mobile-menu-close");
+      $mobileMenu.classList.toggle("hidden");
+      $closeButton.classList.toggle("hidden");
+      $openButton.classList.toggle("hidden");
+
+      document.getElementById("enroll").classList.toggle("hidden");
+    }
+  </script>
 </header>
