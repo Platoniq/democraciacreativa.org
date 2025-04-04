@@ -4,13 +4,13 @@
       <img width="168px" height="51px" src="/assets/img/logo.svg" title="Escuela de Creatividad y Democracia">
     </a>
 
-    <div class="flex justify-around w-7/10 ml-auto hidden md:inline-flex">
+    <div class="flex justify-around w-7/10 ml-auto hidden lg:inline-flex">
       {% for section in site.data.sections  %}
         <a class="border-1 border-white pt-1 pb-1 pl-2 pr-2 hover:border-black rounded-full box-border" href="{{ section.link }}">{{ section.name }}</a>
       {% endfor %}
     </div>
 
-    <div id="mobile-menu-button" class="md:hidden" onclick="toggleMenu()">
+    <div id="mobile-menu-button" class="lg:hidden" onclick="toggleMenu()">
       <button id="mobile-menu-open">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -22,7 +22,7 @@
         </svg>
       </button>
     </div>
-    <div id="mobile-menu" class="hidden md:hidden bg-white w-full absolute top-[75px] left-0 shadow-lg h-screen">
+    <div id="mobile-menu" class="hidden lg:hidden bg-white w-full absolute top-[75px] left-0 shadow-lg h-screen">
       <div class="flex flex-col items-center py-4">
         {% for section in site.data.sections %}
           <a class="border border-white w-3/4 text-center text-2xl my-2 hover:border-black rounded-full box-border" href="{{ section.link }}" onclick="toggleMenu()">{{ section.name }}</a>
