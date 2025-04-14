@@ -1,4 +1,8 @@
-- name: "Sam Dixon"
+- name: "Chimwemwe Chirwa"
+  description: "Poeta <br> 1a generación de mentores"
+  image: "/assets/img/teachers/chimwemwe_chirwa.webp"
+
+- name: "Sam Fixon"
   description: "Facilitadora de Teatro Legislativo <br> 1a generación de mentores"
   image: "/assets/img/teachers/sam_dixon.webp"
 
@@ -45,3 +49,7 @@
 - name: "Gerard Lillo"
   description: "Jefe de participación en el Ajuntament de Barcelona"
   image: "/assets/img/teachers/gerard_lillo.webp"
+
+- name: "Mireya Diouri Bravo"
+  description: "Project Manager de Talento para el Futuro"
+  image: "/assets/img/teachers/mireya_diouri_bravo.webp"
