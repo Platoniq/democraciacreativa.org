@@ -1,7 +1,9 @@
 ---
 layout: page
 title: "Política de Privacidad"
+permalink: /privacy-policy/
 ---
+
 ## RESPONSABLE Y TITULAR DE LOS DATOS
 
 Titular: FUNDACIÓN PLATONIQ
