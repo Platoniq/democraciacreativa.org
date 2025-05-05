@@ -53,3 +53,7 @@
 - name: "Mireya Diouri Bravo"
   description: "Project Manager de Talento para el Futuro"
   image: "/assets/img/teachers/mireya_diouri_bravo.webp"
+
+- name: "Youssef M. Ouled"
+  description: "Periodista e investigador sobre racismo <br> Coordinador de AlgoRace"
+  image: "/assets/img/teachers/youssef_m_ouled.webp"
