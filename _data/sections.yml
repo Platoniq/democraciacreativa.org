@@ -10,6 +10,9 @@
 - name: Itinerarios
   link: "/#itinerary"
 
+- name: Testimonios
+  link: "/#where"
+
 - name: Metodología
   link: "/#methodology"
 
@@ -21,6 +24,3 @@
 
 - name: Precios
   link: "/#price"
-
-- name: Testimonios
-  link: "/#where"
