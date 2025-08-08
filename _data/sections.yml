@@ -10,14 +10,14 @@
 - name: Itinerarios
   link: "/#itinerary"
 
+- name: Testimonios
+  link: "/#where"
+
 - name: Metodología
   link: "/#methodology"
 
 - name: Programa
   link: "/#program"
-
-- name: Testimonios
-  link: "/#where"
 
 - name: Critical Friends
   link: "/#friends"
